@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 @font-face {
     font-family: 'rubik';
     src: url(font/Rubik.woff);
@@ -53,17 +54,209 @@ h4 {
     margin: 0;
 }
 
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
 
-.header_top_bar{
+.header_top_bar {
+    background: #7AC751;
+    margin-bottom: 24px;
+}
+
+.welcome {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.header_top_bar_content {
     min-height: 50px;
-    background: green;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.chose_lang-login {
+    display: flex;
+    gap: 42px;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    outline: none;
+    color: white;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+option {
+    color: #222222;
+}
+
+.login {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    position: relative;
+}
+
+.login::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 19px;
+    background: white;
+    top: 0px;
+    left: -21px;
+}
+
+
+.header_logo_search_links {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    margin-bottom: 24px;
 }
 
-.chose_lang{
-    background: none;
+.header_search {
+    display: flex;
+    align-items: center;
+}
+
+.search_input {
+    min-width: 528px;
+    height: 42px;
+    border: 2px solid #7AC751;
+    border-radius: 8px 0px 0px 8px;
+    padding-left: 24px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B0B0B0;
+}
+
+.header_search_button {
+    width: 56px;
+    height: 46px;
+    background: #7AC751;
     border: none;
+    border-radius: 0px 7px 6px 0px;
+    background-image: url(img/search_icon.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: ease 0.2s;
+}
+
+.header_search_button:hover {
+    background: #77DB41;
+    background-image: url(img/search_icon.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.header_links {
+    display: flex;
+    gap: 16px;
+}
+
+
+.header_links_item svg {
+    fill: #555555;
+    transition: ease 0.2s;
+}
+
+.header_links_item svg:hover {
+    fill: #7AC751;
+}
+
+body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(3) {
+    position: relative;
+}
+
+.in_cart_counter {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 10px;
+    color: #FFFFFF;
+    background: #7AC751;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.top_content_nav_button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 260px;
+    height: 67px;
+    border: none;
+    background: #7AC751;
+    padding: 0px 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+body>div>nav>ul>li {
+    padding: 10px 10px 10px 30px;
+    background: #F7F8FA;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #E3E3E3;
+    width: 260px;
+    box-sizing: border-box;
+}
+
+.top_content {
+    display: flex;
+}
+
+.top_content_nav_links_item {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.top_content_hero {
+    background-image: url(img/hero_background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 910px;
+    height: 439px;
 }

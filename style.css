@@ -52,3 +52,18 @@ h3,
 h4 {
     margin: 0;
 }
+
+
+.header_top_bar{
+    min-height: 50px;
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.chose_lang{
+    background: none;
+    border: none;
+}

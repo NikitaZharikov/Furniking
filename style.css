@@ -154,7 +154,7 @@ option {
     transition: ease 0.3s;
 }
 
-.search_input:hover{
+.search_input:hover {
     border: 2px solid #77DB41;
 }
 
@@ -236,7 +236,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     transition: ease 0.3s;
 }
 
-.top_content_nav_button:hover{
+.top_content_nav_button:hover {
     background: #77DB41;
 }
 
@@ -252,7 +252,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     cursor: pointer;
 }
 
-.top_content_nav_li:hover{
+.top_content_nav_li:hover {
     background: #dddddd;
 }
 
@@ -261,18 +261,19 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     margin-bottom: 80px;
 }
 
-.top_content_hero_navlinks{
+.top_content_hero_navlinks {
     max-height: 67px;
     box-sizing: border-box;
     padding: 25px 0 24px;
 }
 
-.top_content_hero_navlinks ul{
+.top_content_hero_navlinks ul {
     display: flex;
     justify-content: end;
     gap: 60px;
 }
-.top_content_navlinks_item a{
+
+.top_content_navlinks_item a {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -282,7 +283,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     transition: ease 0.3s;
 }
 
-.top_content_navlinks_item a:hover{
+.top_content_navlinks_item a:hover {
     color: #77DB41;
 }
 
@@ -308,7 +309,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     justify-content: space-between;
 }
 
-.top_content_hero_subheader1{
+.top_content_hero_subheader1 {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -319,7 +320,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     margin-bottom: 16px;
 }
 
-.top_content_hero_header{
+.top_content_hero_header {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -331,14 +332,14 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     position: relative;
 }
 
-.top_content_hero_header::after{
+.top_content_hero_header::after {
     content: url(img/border_hero_title.png);
     position: absolute;
     top: 59px;
     left: 132px;
 }
 
-.top_content_hero_subheader2{
+.top_content_hero_subheader2 {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
@@ -348,7 +349,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     margin-bottom: 32px;
 }
 
-.top_content_hero_button{
+.top_content_hero_button {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
@@ -363,17 +364,17 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     cursor: pointer;
 }
 
-.top_content_hero_button:hover{
+.top_content_hero_button:hover {
     background: #77DB41;
 }
 
-.top_content_hero_subhero{
+.top_content_hero_subhero {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.top_content_hero_subhero_item{
+.top_content_hero_subhero_item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -387,16 +388,16 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     cursor: pointer;
 }
 
-.top_content_hero_subhero_item:hover{
+.top_content_hero_subhero_item:hover {
     box-shadow: 0px 0px 44px rgba(122, 199, 81, 0.3);
 }
 
-.top_content_hero_subhero_item_img{
+.top_content_hero_subhero_item_img {
     max-width: 50px;
     max-height: 50px;
 }
 
-.top_content_hero_subhero_item_price{
+.top_content_hero_subhero_item_price {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -407,7 +408,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     color: #7AC751;
 }
 
-.dollar{
+.dollar {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -416,7 +417,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     color: #7AC751;
 }
 
-.top_content_hero_subhero_item_name{
+.top_content_hero_subhero_item_name {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -426,13 +427,13 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     min-width: 58px;
 }
 
-.advantages{
+.advantages {
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
 }
 
-.advantages_item{
+.advantages_item {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -443,16 +444,16 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     cursor: pointer;
 }
 
-.advantages_item svg{
+.advantages_item svg {
     fill: #7AC751;
 }
 
-.advantages_item:hover{
+.advantages_item:hover {
     outline: 2px solid #7AC751;
 }
 
 
-.advantages_item_text_header{
+.advantages_item_text_header {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
@@ -461,7 +462,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     color: #555555;
 }
 
-.advantages_item_text_span{
+.advantages_item_text_span {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -470,7 +471,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     color: #838383;
 }
 
-.offer{
+.offer {
     display: flex;
     justify-content: space-between;
     margin-bottom: 120px;
@@ -483,7 +484,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     box-sizing: border-box;
 }
 
-.offer_item1{
+.offer_item1 {
     min-width: 669px;
     min-height: 511px;
     background: url(img/service_img1.png);
@@ -491,7 +492,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     background-position: center;
 }
 
-.offer_item2{
+.offer_item2 {
     min-width: 485px;
     min-height: 247px;
     background: url(img/service_img2.png);
@@ -499,7 +500,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     background-position: center;
 }
 
-.offer_item3{
+.offer_item3 {
     min-width: 485px;
     min-height: 247px;
     background: url(img/service_img3.png);
@@ -507,30 +508,30 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     background-position: center;
 }
 
-.offer_items_container{
+.offer_items_container {
     display: flex;
     flex-direction: column;
     gap: 17px;
 }
 
-.offer_item_header{
+.offer_item_header {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 28px;    
+    line-height: 28px;
     display: flex;
-    align-items: center;    
+    align-items: center;
     color: #555555;
     margin-bottom: 12px;
 }
 
-.offer_item_subheader{
+.offer_item_subheader {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 25px;    
+    line-height: 25px;
     display: flex;
     align-items: center;
     color: #7AC751;
@@ -538,7 +539,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     margin-bottom: 16px;
 }
 
-.offer_item_button{
+.offer_item_button {
     background: transparent;
     border: none;
     display: flex;
@@ -554,15 +555,173 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     transition: ease 0.3s;
 }
 
-.offer_item_button:hover{
+.offer_item_button:hover {
     color: #77DB41;
 }
 
-.offer_item_button svg{
+.offer_item_button svg {
     fill: #757575;
     transition: ease 0.3s;
 }
 
-.offer_item_button:hover svg{
+.offer_item_button:hover svg {
     fill: #77DB41;
+}
+
+.trending {
+    margin-bottom: 120px;
+}
+
+.trending_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 80px;
+}
+
+.trending_header_h2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #555555;
+}
+
+.trending_header_nav {
+    display: flex;
+    gap: 70px;
+}
+
+.trending_header_nav_item {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C2C2C2;
+    transition: ease 0.3s;
+}
+
+.trending_list {
+    gap: 30px;
+    row-gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trending_list_item {
+    max-width: 269px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.trending_header_nav_item:hover {
+    color: #7AC751;
+}
+
+.trending_list_item_image {
+    position: relative;
+}
+
+.trending_list_item_image::after {
+    content: 'New';
+    background: #00B7F1;
+    border-radius: 0px 0px 5px 0px;
+    position: absolute;
+    width: 42px;
+    height: 19px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 2px 8px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    top: 0px;
+    left: 0px;
+}
+
+.trending_list_item_image_buttons {
+    display: none;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.image_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.trending_list_item_image:hover .trending_list_item_image_buttons {
+    display: block;
+}
+
+.icon_container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.icon_container svg {
+    fill: #757575;
+}
+
+.icon_container:hover svg {
+    background-color: #7AC751;
+    fill: white;
+    border-radius: 50%;
+}
+
+.trending_list_item_category {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.008em;
+    text-transform: uppercase;
+    color: rgba(117, 117, 117, 0.71);
+}
+
+.trending_list_item_name {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #555555;
+}
+
+.trending_list_item_price-rate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending_list_item_price {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #7AC751;
+}
+
+.trending_list_item_price span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #CCCCCC;
+    margin-left: 16px;
 }

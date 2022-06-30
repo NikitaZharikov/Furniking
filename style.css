@@ -99,8 +99,8 @@ select {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    cursor: pointer;
 }
-
 
 option {
     color: #222222;
@@ -163,6 +163,7 @@ option {
     background-position: center center;
     background-repeat: no-repeat;
     transition: ease 0.2s;
+    cursor: pointer;
 }
 
 .header_search_button:hover {
@@ -227,6 +228,11 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     line-height: 19px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    transition: ease 0.3s;
+}
+
+.top_content_nav_button:hover{
+    background: #77DB41;
 }
 
 body>div>nav>ul>li {
@@ -237,13 +243,40 @@ body>div>nav>ul>li {
     border-color: #E3E3E3;
     width: 260px;
     box-sizing: border-box;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+body>div>nav>ul>li:hover{
+    background: #dddddd;
 }
 
 .top_content {
     display: flex;
+    margin-bottom: 80px;
 }
 
-.top_content_nav_links_item {
+.top_content_hero_navlinks{
+    max-height: 67px;
+    box-sizing: border-box;
+    padding: 25px 0 24px;
+}
+
+.top_content_hero_navlinks ul{
+    display: flex;
+    justify-content: end;
+    gap: 60px;
+}
+.top_content_navlinks_item a{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #555555;
+}
+
+.top_content_nav_item {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -254,9 +287,131 @@ body>div>nav>ul>li {
 }
 
 .top_content_hero {
-    background-image: url(img/hero_background.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: linear-gradient(103.4deg, rgba(241, 250, 255, 0.88) 0.89%, #F1FAFF 101.61%);
+    backdrop-filter: blur(155px);
     width: 910px;
-    height: 439px;
+    height: 433px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top_content_hero_subheader1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #7AC751;
+    margin-bottom: 16px;
+}
+
+.top_content_hero_header{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #2F2F2F;
+    max-width: 308px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.top_content_hero_header::after{
+    content: url(img/border_hero_title.png);
+    position: absolute;
+    top: 59px;
+    left: 132px;
+}
+
+.top_content_hero_subheader2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 26px;
+    color: rgba(81, 81, 81, 0.71);
+    margin-bottom: 32px;
+}
+
+.top_content_hero_button{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #7AC751;
+    border-radius: 4px;
+    padding: 10px 18px;
+    border: none;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.top_content_hero_button:hover{
+    background: #77DB41;
+}
+
+.top_content_hero_subhero{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.top_content_hero_subhero_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 8px;
+    gap: 4px;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.top_content_hero_subhero_item:hover{
+    box-shadow: 0px 0px 44px rgba(122, 199, 81, 0.3);
+}
+
+.top_content_hero_subhero_item_img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.top_content_hero_subhero_item_price{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    color: #7AC751;
+}
+
+.dollar{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 8px;
+    color: #7AC751;
+}
+
+.top_content_hero_subhero_item_name{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 8px;
+    color: #555555;
+    min-width: 58px;
 }

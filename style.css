@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 @font-face {
     font-family: 'rubik';
     src: url(font/Rubik.woff);
@@ -151,6 +150,12 @@ option {
     font-size: 14px;
     line-height: 17px;
     color: #B0B0B0;
+    outline: none;
+    transition: ease 0.3s;
+}
+
+.search_input:hover{
+    border: 2px solid #77DB41;
 }
 
 .header_search_button {
@@ -235,7 +240,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     background: #77DB41;
 }
 
-body>div>nav>ul>li {
+.top_content_nav_li {
     padding: 10px 10px 10px 30px;
     background: #F7F8FA;
     border-width: 0px 1px 1px 1px;
@@ -247,7 +252,7 @@ body>div>nav>ul>li {
     cursor: pointer;
 }
 
-body>div>nav>ul>li:hover{
+.top_content_nav_li:hover{
     background: #dddddd;
 }
 
@@ -274,6 +279,11 @@ body>div>nav>ul>li:hover{
     font-size: 14px;
     line-height: 17px;
     color: #555555;
+    transition: ease 0.3s;
+}
+
+.top_content_navlinks_item a:hover{
+    color: #77DB41;
 }
 
 .top_content_nav_item {
@@ -414,4 +424,47 @@ body>div>nav>ul>li:hover{
     line-height: 8px;
     color: #555555;
     min-width: 58px;
+}
+
+.advantages{
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages_item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-sizing: border-box;
+    padding: 16px;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.advantages_item svg{
+    fill: #7AC751;
+}
+
+.advantages_item:hover{
+    outline: 2px solid #7AC751;
+}
+
+
+.advantages_item_text_header{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #555555;
+}
+
+.advantages_item_text_span{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #838383;
 }

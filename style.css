@@ -580,7 +580,10 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     margin-bottom: 80px;
 }
 
-.trending_header_h2 {
+.trending_header_h2,
+.special_offer_header_h2,
+.ourproducts_header_h2,
+.feedback_header_h2 {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 700;
@@ -589,12 +592,14 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     color: #555555;
 }
 
-.trending_header_nav {
+.trending_header_nav,
+.ourproducts_header_nav {
     display: flex;
     gap: 70px;
 }
 
-.trending_header_nav_item {
+.trending_header_nav_item,
+.ourproducts_header_nav_item {
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
@@ -604,7 +609,8 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     transition: ease 0.3s;
 }
 
-.trending_list {
+.trending_list,
+.ourproducts_list {
     gap: 30px;
     row-gap: 40px;
     display: flex;
@@ -616,6 +622,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     display: flex;
     flex-direction: column;
     gap: 8px;
+    cursor: pointer;
 }
 
 .trending_header_nav_item:hover {
@@ -626,8 +633,7 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     position: relative;
 }
 
-.trending_list_item_image::after {
-    content: 'New';
+.trending_list_item_image_tag_new{
     background: #00B7F1;
     border-radius: 0px 0px 5px 0px;
     position: absolute;
@@ -638,7 +644,61 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     font-weight: 600;
     font-size: 12px;
     line-height: 15px;
-    padding: 2px 8px;
+    padding: 2px 8px 2px 8px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    top: 0px;
+    left: 0px;
+}
+
+.trending_list_item_image_tag_sale{
+    background: #7AC751;
+    border-radius: 0px 0px 5px 0px;
+    position: absolute;
+    width: 42px;
+    height: 19px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 2px 8px 2px 8px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    top: 0px;
+    left: 0px;
+}
+
+.trending_list_item_image_tag_sale40-50{
+    background: #00B7F1;
+    border-radius: 0px 0px 0px 5px;
+    position: absolute;
+    width: 61px;
+    height: 19px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 2px 8px 2px 8px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    top: 0px;
+    right: 0px;
+}
+
+.trending_list_item_image_tag_sale30{
+    background: #FF6868;
+    border-radius: 0px 0px 5px 0px;
+    position: absolute;
+    width: 47px;
+    height: 19px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 2px 8px 2px 8px;
     color: #FFFFFF;
     box-sizing: border-box;
     top: 0px;
@@ -725,3 +785,265 @@ body>header>div.header_logo_search_links.container>div.header_links>a:nth-child(
     color: #CCCCCC;
     margin-left: 16px;
 }
+
+.special_offer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.special_offer_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.special_offer_container_item1,
+.special_offer_container_item2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 0 32px;
+    min-width: 570px;
+    min-height: 249px;
+    background-image: url(img/bacground_special_ofer_item1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.special_offer_container_item2{
+    background-image: url(img/bacground_special_ofer_item2.png);
+}
+
+.special_offer_header_h2{
+    margin-bottom: 60px;
+}
+
+.special_offer_container_item_h3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #555555;
+    margin-bottom: 8px;
+}
+
+.special_offer_container_item_p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #757575;
+    margin-bottom: 24px;
+    max-width: 227px;
+}
+
+.special_offer_container_item_price-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    max-width: 249px;
+}
+
+.special_offer_container_item_price{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #7AC751;
+}
+
+.special_offer_container_item_price span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-decoration-line: line-through;
+    color: #CCCCCC;
+    margin-left: 8px;
+}
+
+.special_offer_container_item_button{
+    background: #7AC751;
+    border-radius: 4px;
+    padding: 10px 18px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    transition: ease 0.3s;
+}
+
+.special_offer_container_item_button:hover{
+    background: #77DB41;
+}
+
+
+.special_offer_container_item_time{
+    display: flex;
+    gap: 16px;
+}
+
+.days,.hours,.min,.sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 8px 12px;
+    background: #7AC751;
+    color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.count{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;}
+
+.name{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 7px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.ourproducts{
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourproducts_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.ourproducts_header_h2{
+    margin-bottom: 45px;
+}
+
+.ourproducts_header_nav_item:hover{
+    color: #7AC751;
+}
+
+.ourproducts_list_button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    padding: 10px 18px;
+    background: #7AC751;
+    border-radius: 4px;
+    border: none;
+    margin-top: 80px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    transition: ease 0.3s;
+}
+
+.ourproducts_list_button:hover{
+    background: #77DB41;
+}
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.arrow_right{
+    transform: rotate(180deg);
+}
+
+.feedback_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 52px;
+}
+
+.feedback_content_text{
+    background: #F8FAFB;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    max-width: 816px;
+    padding: 0 125px 47px 125px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback_content_text img{
+    margin-top: -40px;
+    margin-bottom: 32px;
+}
+
+.feedback_content_text_p{
+    margin-bottom: 32px;
+    max-width: 586px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #515151;
+}
+.feedback_content_text_name{
+    margin-bottom: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #555555;
+}
+
+.feedback_content_text_position{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #515151;
+}
+
